@@ -1,4 +1,4 @@
-# Sync Website Theme With OS Dark Mode And Light Mode
+# How To Sync Website Theme With OS Dark Mode And Light Mode
 
 _How To Sync Website Theme With OS Dark Mode And Light Mode - CSS Automatic Night Mode And Day Mode_
 
