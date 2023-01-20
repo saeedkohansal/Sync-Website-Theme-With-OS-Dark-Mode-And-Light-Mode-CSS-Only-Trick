@@ -1,0 +1,56 @@
+/* ----------- */
+/* Main Styles */
+/* ----------- */
+body {
+    color: #ff0;
+    background-color: #47307c;
+    /* Smooth Theme Change */
+    transition: 1s;
+}
+
+h2 {
+    color: #000;
+    background-color: #0fb;
+}
+
+.active-theme::after {
+    content: "Not Supported!";
+}
+
+
+/* --------------------- */
+/* OS (Light / Day) Mode */
+/* --------------------- */
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+    }
+
+    body {
+        color: #000;
+        background-color: #fff;
+    }
+
+    .active-theme::after {
+        content: "Light / Day ☀️";
+    }
+}
+
+
+/* ---------------------- */
+/* OS (Dark / Night) Mode */
+/* ---------------------- */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+
+    body {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .active-theme::after {
+        content: "Dark / Night 🌙";
+    }
+}
