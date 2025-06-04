@@ -58,6 +58,10 @@ h2 {
 
 @media (max-width: 576px) {
     body {
-        width: 90% !important;
+        width: auto !important;
+    }
+
+    h2 {
+        border-radius: 0;
     }
 }
