@@ -58,6 +58,6 @@ h2 {
 
 @media (max-width: 576px) {
     body {
-        width: 90%;
+        width: 90% !important;
     }
 }
