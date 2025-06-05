@@ -17,6 +17,22 @@ h2 {
     content: "Not Supported!";
 }
 
+@media (max-width: 576px) {
+    body {
+        width: auto !important;
+    }
+
+    h2 {
+        border-radius: 0 !important;
+        font-size: 24px;
+    }
+
+    p {
+        padding: 0 14px !important;
+        font-size: 18px;
+    }
+}
+
 
 /* --------------------- */
 /* OS (Light / Day) Mode */
@@ -52,22 +68,5 @@ h2 {
 
     .active-theme::after {
         content: "Dark / Night 🌙";
-    }
-}
-
-
-@media (max-width: 576px) {
-    body {
-        width: auto !important;
-    }
-
-    h2 {
-        border-radius: 0 !important;
-        font-size: 24px;
-    }
-
-    p {
-        padding: 0 14px !important;
-        font-size: 18px;
     }
 }
